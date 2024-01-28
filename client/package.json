@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-query": "5.0.5",
+    "algoliasearch": "^4.22.1",
+    "axios": "^1.6.7",
+    "bignumber.js": "^9.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "ethers": "^6.10.0",
+    "form-data": "^4.0.0",
+    "lucide-react": "^0.316.0",
+    "next": "13.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.40.4",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-instantsearch-dom": "^6.12.7",
+    "@wagmi/cli": "latest",
+    "autoprefixer": "^10.0.1",
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.2.0",
+    "postcss": "^8",
+    "supports-color": "^9.4.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.2.2",
+    "utf-8-validate": "^6.0.3"
+  }
+}
